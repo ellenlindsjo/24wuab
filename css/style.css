@@ -1,0 +1,39 @@
+header {
+    background-color: brown;
+    height: 20vh; 
+}
+footer {
+    background-color: brown;
+    height: 20vh; 
+}
+body {
+    margin: 0px;
+}
+.allt_utom_header_och_footer {
+    margin: 4vw; 
+}
+p {
+    font-size: 2em;
+}
+h2 {
+    font-size: 3em;
+}
+img {
+    width: 40vw;
+}
+.galleri_bilder {
+    height: 80vh;
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.bilder_index {
+    display: flex;
+    justify-content: space-evenly;
+}
+.dryck_cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
