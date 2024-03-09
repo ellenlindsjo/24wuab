@@ -1,8 +1,10 @@
-document.querySelector(".fade-layer").addEventlistener("click",showMenu)
+document.querySelector(".fade-layer").addEventListener("click",toggleMenu)
 
-document.querySelector(".menuButton").addEventlistener("click",showMenu)
+document.querySelector(".menu-button").addEventListener("click",toggleMenu)
 
-function showMenu(){
+document.querySelector(".material-symbols-outlined").addEventListener("click",toggleMenu)
+
+function toggleMenu(){
     let menu = document.querySelector("nav.menu");
     menu.classList.toggle("show");
 
