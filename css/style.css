@@ -35,7 +35,7 @@ img {
     display: flex;
     justify-content: space-evenly;
 }
-.dryck_cards{
+.cards{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,12 +74,25 @@ img {
     left: 0;
 }
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24;
-  color:goldenrod;
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+    color:goldenrod;
+  }
+.fade-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0,5);
+    display: none; 
+    z-index: 5;
+}
+.fade-layer.visible {
+    display: block;
 }
 .oppettider {
     margin-right: 0px;
