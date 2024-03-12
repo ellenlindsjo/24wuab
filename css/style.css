@@ -5,8 +5,35 @@ header {
 }
 footer {
     background-color: black;
-    height: 50vh; 
+    height: auto; 
     color: goldenrod;
+}
+.footer_grid{
+    margin: 5vw; 
+    display: grid;
+    min-height: 50vh;
+    gap: 0.5vw;
+    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-areas: 
+    'k_info_1 k_info_2'
+    'sociala_medier sociala_medier'
+    'img img';
+}
+.k_info_1 {
+    grid-area: k_info_1;
+}
+.k_info_2 {
+    grid-area: k_info_2;
+}
+.sociala_medier {
+    grid-area: sociala_medier;
+}
+.footer_img {
+    grid-area: img;
+}
+a footer{
+    color:goldenrod;
 }
 body {
     margin: 0px;
@@ -22,14 +49,15 @@ h2 {
     font-size: 2.2em;
 }
 img {
-    width: 40vw;
+    width: 90vw;
 }
 .galleri_bilder {
-    height: 80vh;
+    height: 260vh;
     display: flex; 
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-around;
+    
 }
 .bilder_index {
     display: flex;
@@ -80,8 +108,8 @@ i.material-icons {
     'GRAD' 0,
     'opsz' 24;
     color:goldenrod;
-  }
-  .fade-layer {
+}
+.fade-layer {
     position: fixed;
     top: 0;
     left: 0;
