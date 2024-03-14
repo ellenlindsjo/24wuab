@@ -13,18 +13,15 @@ footer {
     display: grid;
     min-height: 50vh;
     gap: 0.5vw;
-    grid-template-columns: 50% 50%;
-    grid-template-columns: 40% 30% 30%;
+    grid-template-columns: 100%;
+    grid-template-rows: 90% 5% 5%;
     grid-template-areas: 
-    'k_info_1 k_info_2'
-    'sociala_medier sociala_medier'
-    'img img';
+    'k_info_1'
+    'sociala_medier'
+    'img';
 }
 .k_info_1 {
     grid-area: k_info_1;
-}
-.k_info_2 {
-    grid-area: k_info_2;
 }
 .sociala_medier {
     grid-area: sociala_medier;
@@ -32,7 +29,7 @@ footer {
 .footer_img {
     grid-area: img;
 }
-a footer{
+footer a {
     color:goldenrod;
 }
 body {
@@ -57,7 +54,6 @@ img {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-content: space-around;
-    
 }
 .bilder_index {
     display: flex;
@@ -123,10 +119,14 @@ i.material-icons {
     display: block;
 }
 .oppettider {
-    margin-right: 0px;
+    margin-left: 7vw;
+}
+.dagar {
+    margin-right: 12vw;
+    display: inline-block;
 }
 .tider {
-    display: inline;
+    display: inline-block;
     margin-left: 0px;
 }
 a {
