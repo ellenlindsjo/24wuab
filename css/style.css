@@ -5,8 +5,8 @@ header {
 }
 footer {
     background-color: black;
-    height: auto; 
-    color: goldenrod;
+    height: 65vh; 
+    color: #c6bf45;
 }
 .footer_grid{
     margin: 5vw; 
@@ -14,7 +14,7 @@ footer {
     min-height: 50vh;
     gap: 0.5vw;
     grid-template-columns: 100%;
-    grid-template-rows: 90% 5% 5%;
+    grid-template-rows: 60% 10% 15%;
     grid-template-areas: 
     'k_info_1'
     'sociala_medier'
@@ -22,15 +22,38 @@ footer {
 }
 .k_info_1 {
     grid-area: k_info_1;
+    color: #c6bf45;
+}
+
+.k_info_1 a {
+    color: #c6bf45;
 }
 .sociala_medier {
     grid-area: sociala_medier;
 }
+.sociala_medier i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 0.8vh;
+}
 .footer_img {
     grid-area: img;
+    display: flex;
+    justify-content: center;
 }
-footer a {
-    color:goldenrod;
+.heart {
+    height: 25vw;
+    width: 20vw;
+}
+a {
+    color:#c6bf45;
+}
+i {
+    color: #c6bf45;
+}
+nav a {
+    color: black;
 }
 body {
     margin: 0px;
@@ -92,7 +115,7 @@ img {
 }
 i.material-icons {
     font-size: 5rem;
-    color:goldenrod;
+    color: #c6bf45;
 }
 .show {
     left: 0;
@@ -103,7 +126,7 @@ i.material-icons {
     'wght' 400,
     'GRAD' 0,
     'opsz' 24;
-    color:goldenrod;
+    color: #c6bf45;
 }
 .fade-layer {
     position: fixed;
@@ -131,7 +154,6 @@ i.material-icons {
 }
 a {
     text-decoration: none;
-    color: black;
 }
 .on_page {
     text-decoration: underline;
