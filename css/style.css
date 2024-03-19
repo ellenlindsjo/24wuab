@@ -20,12 +20,30 @@ footer {
     'sociala_medier'
     'img';
 }
+.footer_grid_desk {
+    margin: 5vw; 
+    display: grid;
+    min-height: 50vh;
+    gap: 0.5vw;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 60% 10% 15%;
+    grid-template-areas: 
+    'k_info_1 k_info_2'
+    'sociala_medier sociala_medier'
+    'img img';
+}
 .k_info_1 {
     grid-area: k_info_1;
     color: #c6bf45;
 }
-
 .k_info_1 a {
+    color: #c6bf45;
+}
+.k_info_2 {
+    grid-area: k_info_2;
+    color: #c6bf45;
+}
+.k_info_2 a {
     color: #c6bf45;
 }
 .sociala_medier {
@@ -162,4 +180,37 @@ a {
 .mat {
     margin-top: 0vh;
     margin-bottom: 5vh;
+}
+@media screen and (min-width: 768px) {
+    p {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 3.5em;
+    }
+    footer {
+        height: 70vh;
+    }
+    img {
+        width: 40vw;
+    }
+    .heart {
+        width: 10vw;
+        height: 12.5vw;
+    }
+    .menu {
+        width: 40vw;
+    }
+    body {
+        width: 98.7vw;
+    }
+    .footer_grid {
+        display: none;
+    }
+}
+@media screen and (max-width: 767px) {
+    .footer_grid_desk {
+        display: none;
+    }
+
 }
