@@ -187,6 +187,11 @@ a {
     h2 {
         font-size: 3.5em;
     }
+    .allt_utom_header_och_footer {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 2vw;
+    }
     footer {
         height: 60vh;
     }
@@ -208,18 +213,21 @@ a {
     }
     .k_info_1 {
         justify-self: center;
+        margin-left: 5vw;
     }
     .k_info_2 {
         justify-self: center;
+        margin-right: 5vw;
     }
     .sociala_medier {
-        margin-left: 16vw;
+        margin-left: 18vw;
     }
     .hela_tider {
         display: inline-block;
     }
-    .info {
+    .info_desk_kontakt {
         display: inline-block;
+        max-width: 40vw;
     }
     .kontakt_och_tider {
         display: flex;
@@ -230,7 +238,37 @@ a {
     .oppettider_h2 {
         margin-left: 7vw;
     }
-
+    .kontakt_bild_desk img {
+        display: inline-block;
+        width: 10vw;
+    }
+    .dryck_img_desk {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2vw;
+    }
+    .dryck_img_desk img {
+        width: 30vw;
+    }
+    .galleri_bilder {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2vw;
+    }
+    .galleri_bilder img {
+        width: 22vw;
+    }
+    .mat_bilder {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2vw;
+    }
+    .mat_card {
+        width: 25vw;
+    }
+    .mat_card img {
+        width: 25vw;
+    }
 }
 @media screen and (max-width: 767px) {
     .footer_grid_desk {
