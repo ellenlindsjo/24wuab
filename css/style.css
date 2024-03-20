@@ -8,7 +8,7 @@ footer {
     height: 65vh; 
     color: #c6bf45;
 }
-.footer_grid{
+.footer_grid {
     margin: 5vw; 
     display: grid;
     min-height: 50vh;
@@ -24,7 +24,6 @@ footer {
     margin: 5vw; 
     display: grid;
     min-height: 50vh;
-    gap: 0.5vw;
     grid-template-columns: 50% 50%;
     grid-template-rows: 60% 10% 15%;
     grid-template-areas: 
@@ -189,14 +188,14 @@ a {
         font-size: 3.5em;
     }
     footer {
-        height: 70vh;
+        height: 60vh;
     }
     img {
         width: 40vw;
     }
     .heart {
-        width: 10vw;
-        height: 12.5vw;
+        width: 8vw;
+        height: 10vw;
     }
     .menu {
         width: 40vw;
@@ -207,6 +206,31 @@ a {
     .footer_grid {
         display: none;
     }
+    .k_info_1 {
+        justify-self: center;
+    }
+    .k_info_2 {
+        justify-self: center;
+    }
+    .sociala_medier {
+        margin-left: 16vw;
+    }
+    .hela_tider {
+        display: inline-block;
+    }
+    .info {
+        display: inline-block;
+    }
+    .kontakt_och_tider {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 10vw;
+    }
+    .oppettider_h2 {
+        margin-left: 7vw;
+    }
+
 }
 @media screen and (max-width: 767px) {
     .footer_grid_desk {
