@@ -5,7 +5,7 @@ header {
 }
 footer {
     background-color: black;
-    height: 65vh; 
+    height: 75vh; 
     color: #c6bf45;
 }
 .footer_grid {
@@ -81,9 +81,15 @@ body {
 }
 p {
     font-size: 1.5em;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 h2 {
     font-size: 2.2em;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 img {
     width: 90vw;
@@ -180,6 +186,13 @@ a {
     margin-top: 0vh;
     margin-bottom: 5vh;
 }
+.info a {
+    color: black;
+    text-decoration: underline;
+}
+.info a:hover {
+    color: #c6bf45;
+}
 @media screen and (min-width: 768px) {
     p {
         font-size: 2.5em;
@@ -193,7 +206,7 @@ a {
         margin-top: 2vw;
     }
     footer {
-        height: 60vh;
+        height: 63vh;
     }
     img {
         width: 40vw;
@@ -240,7 +253,7 @@ a {
     }
     .kontakt_bild_desk img {
         display: inline-block;
-        width: 10vw;
+        width: 30vw;
     }
     .dryck_img_desk {
         display: flex;
@@ -269,10 +282,34 @@ a {
     .mat_card img {
         width: 25vw;
     }
+    .header_img {
+        height: 35vh;
+    }
+}
+@media screen and (min-width: 1500px) {
+     nav .menu {
+        display: none;
+    }
+    .menu-button {
+        display: none;
+    }
+    .nav_desktop {
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav_desktop a {
+        display: inline-block;
+        color: #c6bf45;
+    }
+}
+@media screen and (max-width: 1499px) {
+    .nav_desktop {
+        display: none;
+    }
 }
 @media screen and (max-width: 767px) {
     .footer_grid_desk {
         display: none;
     }
-
 }
