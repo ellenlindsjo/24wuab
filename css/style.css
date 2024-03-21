@@ -285,6 +285,15 @@ a {
     .header_img {
         height: 35vh;
     }
+    .info_och_img_kontakt {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4vh;
+        gap: 2vw;
+    }
+    .oppettider {
+        margin-top: -3.5vh;
+    }
 }
 @media screen and (min-width: 1500px) {
      nav .menu {
