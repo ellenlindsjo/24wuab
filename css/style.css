@@ -193,6 +193,28 @@ a {
 .info a:hover {
     color: #c6bf45;
 }
+.index_grid_desk {
+    margin: 3vw; 
+    display: grid;
+    min-height: 10vh;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    'valkommen_info bild_1'
+    'mat_och_dryck_info bild_2';
+}
+.valkommen_info {
+    grid-area: valkommen_info;
+}
+.bild_1 {
+    grid-area: bild_1;
+}
+.mat_och_dryck_info {
+    grid-area: mat_och_dryck_info;
+}
+.bild_2 {
+    grid-area: bild_2;
+}
 @media screen and (min-width: 768px) {
     p {
         font-size: 2.5em;
@@ -305,6 +327,16 @@ a {
     .oppettider_h2_desk_index {
         margin-left: 25vw;
     }
+    .bild_1 {
+        height: 25vw;
+        overflow: hidden;
+        align-self: flex-end;
+    }
+    .bild_2 {
+        height: 25vw;
+        overflow: hidden;
+        align-self: flex-end;
+    }
 }
 @media screen and (min-width: 1500px) {
      nav .menu {
@@ -330,6 +362,9 @@ a {
 }
 @media screen and (max-width: 767px) {
     .footer_grid_desk {
+        display: none;
+    }
+    .index_grid_desk {
         display: none;
     }
 }
