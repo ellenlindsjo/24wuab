@@ -235,6 +235,31 @@ a {
 .catering_img_2 {
     grid-area: catering_img_2;
 }
+.dryck_grid_desk {
+    margin: 3vw; 
+    display: grid;
+    min-height: 70vh;
+    grid-template-columns: 16% 17% 17% 17% 17% 16%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    'i_d i_d i_d d_4 d_4 d_4'
+    'd_2 d_2 d_3 d_3 d_5 d_5';
+}
+.info_dryck {
+    grid-area: i_d;
+}
+.dryck_2 {
+    grid-area: d_2;
+}
+.dryck_3 {
+    grid-area: d_3;
+}
+.dryck_4 {
+    grid-area: d_4;
+}
+.dryck_5 {
+    grid-area: d_5;
+}
 @media screen and (min-width: 768px) {
     p {
         font-size: 2.5em;
@@ -295,14 +320,6 @@ a {
     }
     .kontakt_bild_desk img {
         display: inline-block;
-        width: 30vw;
-    }
-    .dryck_img_desk {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 2vw;
-    }
-    .dryck_img_desk img {
         width: 30vw;
     }
     .galleri_bilder {
@@ -369,6 +386,30 @@ a {
     .catering_h2 {
         margin-left: 3vw;
     }
+    .dryck_1 {
+        display: none;
+    }
+    .dryck_2 {
+        width: 22vw;
+        height: 22vw;
+        margin-top: 5vw;
+    }
+    .dryck_3 {
+        width: 22vw;
+        height: 22vw;
+        margin-top: 5vw;
+    }
+    .dryck_4 {
+        width: 30vw;
+        height: 30vw;
+        justify-self: center;
+        margin-left: 2.5vw;
+    }
+    .dryck_5 {
+        width: 22vw;
+        height: 22vw;
+        margin-top: 5vw;
+    }
 }
 @media screen and (min-width: 1500px) {
      nav .menu {
@@ -400,6 +441,9 @@ a {
         display: none;
     }
     .catering_grid_desk {
+        display: none;
+    }
+    .dryck_grid_desk {
         display: none;
     }
 }
