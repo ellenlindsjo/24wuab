@@ -215,6 +215,26 @@ a {
 .bild_2 {
     grid-area: bild_2;
 }
+.catering_grid_desk {
+    margin: 3vw; 
+    margin-bottom: 18vh;
+    display: grid;
+    min-height: 80vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+    'catering_info catering_info'
+    'catering_img_1 catering_img_2';
+}
+.catering_info {
+    grid-area: catering_info;
+}
+.catering_img_1 {
+    grid-area: catering_img_1;
+}
+.catering_img_2 {
+    grid-area: catering_img_2;
+}
 @media screen and (min-width: 768px) {
     p {
         font-size: 2.5em;
@@ -337,6 +357,18 @@ a {
         overflow: hidden;
         align-self: flex-end;
     }
+    .catering_img_1 img {
+        width: 30vw;
+        height: 30vw; 
+        overflow: hidden;
+    }
+    .catering_img_2 img {
+        width: 30vw;
+        height: 30vw;
+    }
+    .catering_h2 {
+        margin-left: 3vw;
+    }
 }
 @media screen and (min-width: 1500px) {
      nav .menu {
@@ -365,6 +397,9 @@ a {
         display: none;
     }
     .index_grid_desk {
+        display: none;
+    }
+    .catering_grid_desk {
         display: none;
     }
 }
