@@ -274,13 +274,16 @@ a {
     .mat_bilder {
         display: flex;
         flex-wrap: wrap;
-        gap: 2vw;
+        gap: 1.8vw;
+        justify-content: center;
     }
     .mat_card {
         width: 25vw;
     }
     .mat_card img {
         width: 25vw;
+        height: 25vw;
+        overflow: hidden;
     }
     .header_img {
         height: 35vh;
@@ -293,6 +296,14 @@ a {
     }
     .oppettider {
         margin-top: -3.5vh;
+    }
+    .oppettider_desk_index {
+        display: flex;
+        justify-content: center;
+        margin-left: 0vw;
+    }
+    .oppettider_h2_desk_index {
+        margin-left: 25vw;
     }
 }
 @media screen and (min-width: 1500px) {
