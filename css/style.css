@@ -5,7 +5,7 @@ header {
 }
 footer {
     background-color: black;
-    height: 75vh; 
+    height: 77vh; 
     color: #c6bf45;
 }
 .footer_grid {
@@ -228,6 +228,7 @@ a {
 }
 .catering_info {
     grid-area: catering_info;
+    margin-top: -3vh;
 }
 .catering_img_1 {
     grid-area: catering_img_1;
