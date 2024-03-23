@@ -364,15 +364,17 @@ a {
     .oppettider_h2_desk_index {
         margin-left: 25vw;
     }
-    .bild_1 {
+    .bild_1 img {
         height: 25vw;
-        overflow: hidden;
+        width: 40vw;
         align-self: flex-end;
+        justify-self: center;
     }
-    .bild_2 {
+    .bild_2 img {
         height: 25vw;
-        overflow: hidden;
+        width: 40vw;
         align-self: flex-end;
+        justify-self: center;
     }
     .catering_img_1 img {
         width: 30vw;
@@ -409,6 +411,12 @@ a {
         width: 22vw;
         height: 22vw;
         margin-top: 5vw;
+    }
+    img {
+        object-fit: cover;
+    }
+    .index_mobil_info {
+        display: none;
     }
 }
 @media screen and (min-width: 1500px) {
