@@ -418,6 +418,12 @@ a {
     .index_mobil_info {
         display: none;
     }
+    .dryck_mobil {
+        display: none;
+    }
+    .catering_mobil {
+        display: none;
+    }
 }
 @media screen and (min-width: 1500px) {
      nav .menu {
