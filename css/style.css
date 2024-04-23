@@ -425,6 +425,9 @@ a {
     .catering_mobil {
         display: none;
     }
+    .catering_bildtext {
+        width: 30vw;
+    }
 }
 @media screen and (min-width: 1500px) {
      nav .menu {
